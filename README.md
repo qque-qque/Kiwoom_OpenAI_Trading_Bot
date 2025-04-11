@@ -95,8 +95,7 @@ python src/main.py
 ```
 Kiwoom_OpenAI_Trading_Bot/
 ├── src/
-│   ├── main.py               # 프로그램 실행 파일
-│   └── kiwoom.py             # Kiwoom OpenAPI 연동 코드
+│   └── main.py               # 프로그램 실행 파일
 ├── utils/
 │   └── kiwoom.py             # Kiwoom OpenAPI 연동 코드 (모듈화된 버전)
 ├── config.ini                # 설정 파일 (계좌 정보, 거래 설정)
