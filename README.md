@@ -95,11 +95,13 @@ python src/main.py
 ```
 Kiwoom_OpenAI_Trading_Bot/
 ├── src/
-│   └── main.py               # 프로그램 실행 파일
+│   ├── main.py               # 프로그램 실행 파일
+│   └── kiwoom.py             # Kiwoom OpenAPI 연동 코드
 ├── utils/
 │   └── kiwoom.py             # Kiwoom OpenAPI 연동 코드 (모듈화된 버전)
 ├── config.ini                # 설정 파일 (계좌 정보, 거래 설정)
 ├── requirements.txt          # 의존성 목록
+├── LICENSE                   # 라이선스 파일
 └── README.md                 # 프로젝트 설명
 ```
 
